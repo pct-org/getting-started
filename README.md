@@ -30,7 +30,7 @@ Please see the [contributing guide].
 
 ## Issues
 
-File a bug against [pct-org/getting-started prefixed with \[getting started\]](https://github.com/pct-org/getting-started/issues/new?title=[getting-started]%20).
+File a bug against [pct-org/getting-started prefixed with \[getting-started\]](https://github.com/pct-org/getting-started/issues/new?title=[getting-started]%20).
 
 ## [License](./LICENSE)
 
