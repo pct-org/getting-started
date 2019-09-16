@@ -34,7 +34,7 @@ Please see the [contributing guide].
 
 ## Issues
 
-File a issues against [pct-org/getting-started prefixed with \[getting-started\]].
+File a issues against [pct-org/getting-started prefixed with \[getting-started\]](https://github.com/pct-org/getting-started/issues/new?title=[getting started]%20).
 
 [contributing guide]: ./CONTRIBUTING.md
 [`@pct-org/graphql-api`]: https://github.com/pct-org/graphql-api
@@ -42,4 +42,3 @@ File a issues against [pct-org/getting-started prefixed with \[getting-started\]
 [`@pct-org/mongo-models`]: https://github.com/pct-org/mongo-models
 [`@pct-org/native-app`]: https://github.com/pct-org/native-app
 [`@pct-org/scraper`]: https://github.com/pct-org/scraper
-[pct-org/getting-started prefixed with \[getting-started\]]: https://github.com/pct-org/getting-started/issues/new?title=[getting started]%20
