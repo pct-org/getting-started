@@ -24,17 +24,17 @@ Popcorn Time consists of several projects, each doing it's own part.
 | [`@pct-org/native-app`]      | React Native App                                         |
 | [`@pct-org/scraper`]         | Scrapes everything and saves it to MongoDB database      |
 
-## [License](./LICENSE)
-
-This project is [MIT licensed](./LICENSE).
-
 ## Contributing:
 
 Please see the [contributing guide].
 
 ## Issues
 
-File a issues against [pct-org/getting-started prefixed with \[getting started\]](https://github.com/pct-org/getting-started/issues/new?title=[getting started]%20).
+File a bug against [pct-org/getting-started prefixed with \[getting started\]](https://github.com/pct-org/getting-started/issues/new?title=[getting-started]%20).
+
+## [License](./LICENSE)
+
+This project is [MIT licensed](./LICENSE).
 
 [contributing guide]: ./CONTRIBUTING.md
 [`@pct-org/graphql-api`]: https://github.com/pct-org/graphql-api
