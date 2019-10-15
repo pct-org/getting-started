@@ -11,6 +11,33 @@
 </div>
 
 ---
+## Getting started
+
+This repo is meant to get a easier experience setting up this environment.
+
+**Requirements**
+- Make sure MongoDB is running, for Mac users there is a docker-compose file.
+- Copy the `ecosystem.config.example.js` to `ecosystem.config.js` file and fill it in
+
+```
+# Clone this repository
+$ git clone --recurse-submodules git@github.com:pct-org/getting-started.git
+
+# Install dependencies
+$ yarn install
+
+# Run the setup command
+$ yarn setup
+
+# You can now run the start command to start the API's
+$ yarn start
+
+# To stop the API's
+$ yarn stop
+
+# To delete the PM2 apps
+$ yarn delete
+```
 
 ## Projects
 
