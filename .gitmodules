@@ -1,0 +1,6 @@
+[submodule "apis/scraper"]
+	path = apis/scraper
+	url = git@github.com:pct-org/scraper.git
+[submodule "apis/graphql-api"]
+	path = apis/graphql-api
+	url = git@github.com:pct-org/graphql-api.git
