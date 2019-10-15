@@ -2,4 +2,3 @@ node_modules
 ecosystem.config.js
 data/
 logs/*
-!logs/.gitkeep
