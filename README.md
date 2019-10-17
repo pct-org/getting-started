@@ -15,11 +15,22 @@
 
 This repo is meant to get a easier experience setting up this environment.
 
+## Installation
+
+### Installation scripts
+
+There is a installation scripts available to help install everything you need to run on a certain environment, scripts that are available:
+1. [raspberry-pi](./install-scripts/raspberry-pi.sh)
+
+To run these scripts do `curl -o- -L https://raw.githubusercontent.com/pct-org/getting-started/master/install-scripts/{script name}.sh | bash`, where {script name} is one of the names from the list above. For example: `curl -o- -L https://raw.githubusercontent.com/pct-org/getting-started/master/install-scripts/raspberry-pi.sh.sh | bash`
+
+### Manual installation
+
 **Requirements**
 - Make sure MongoDB is running, for Mac users there is a docker-compose file.
-- Copy the `ecosystem.config.example.js` to `ecosystem.config.js` file and fill it in
+- Copy the `ecosystem.config.example.js` to `ecosystem.config.js` file and fill it in.
 
-```
+```shell script
 # Clone this repository
 $ git clone --recurse-submodules git@github.com:pct-org/getting-started.git
 
@@ -28,8 +39,12 @@ $ yarn install
 
 # Run the setup command
 $ yarn setup
+```
 
-# You can now run the start command to start the API's
+## Starting the project
+
+```shell script
+# To start the API's (Scraper will immediately start scraping)
 $ yarn start
 
 # To stop the API's
