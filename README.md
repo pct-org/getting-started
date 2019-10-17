@@ -22,7 +22,12 @@ This repo is meant to get a easier experience setting up this environment.
 There is a installation scripts available to help install everything you need to run on a certain environment, scripts that are available:
 1. [raspberry-pi](./install-scripts/raspberry-pi.sh)
 
-To run these scripts do `curl -o- -L https://raw.githubusercontent.com/pct-org/getting-started/master/install-scripts/{script name}.sh | bash`, where {script name} is one of the names from the list above. For example: `curl -o- -L https://raw.githubusercontent.com/pct-org/getting-started/master/install-scripts/raspberry-pi.sh.sh | bash`
+To run one of these scripts use the following command in your terminal:
+`curl -o- -L https://raw.githubusercontent.com/pct-org/getting-started/master/install-scripts/{script name}.sh | bash`, where {script name} is one of the names from the list above. 
+
+Example for Raspbarry PI: 
+
+`curl -o- -L https://raw.githubusercontent.com/pct-org/getting-started/master/install-scripts/raspberry-pi.sh | bash`
 
 ### Manual installation
 
