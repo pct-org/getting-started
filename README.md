@@ -17,17 +17,12 @@ This repo is meant to get a easier experience setting up this environment.
 
 ## Installation
 
-### Installation scripts
+### Platforms
 
-There is a installation scripts available to help install everything you need to run on a certain environment, scripts that are available:
-- [raspberry-pi](./install-scripts/raspberry-pi.sh)
+There is a installation scripts available to help install everything you need to run on a certain platform, scripts that are available:
+- [raspberry-pi](./docs/run-on.raspberry-pi.md)
 
-To run one of these scripts use the following command in your terminal:
-`curl -o- -L https://raw.githubusercontent.com/pct-org/getting-started/master/install-scripts/{script name}.sh | bash`, where {script name} is one of the names from the list above. 
-
-Example for Raspberry PI: 
-
-`curl -o- -L https://raw.githubusercontent.com/pct-org/getting-started/master/install-scripts/raspberry-pi.sh | bash`
+Click on the links to ge more info on how to run on those platforms.
 
 ### Manual installation
 
