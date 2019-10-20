@@ -15,7 +15,8 @@
     "setup": "pm2 install pm2-logrotate && yarn build:apis",
     "start": "pm2 start ecosystem.config.js",
     "start:dev": "",
-    "stop": "pm2 stop ecosystem.config.js"
+    "stop": "pm2 stop ecosystem.config.js",
+    "update:submodules": "git submodule foreach git pull origin master"
   },
   "dependencies": {
     "pm2": "^4.1.1"
