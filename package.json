@@ -12,11 +12,13 @@
     "build:scraper": "cd apis/scraper && yarn && cd ../../",
     "commitlint": "commitlint",
     "delete": "pm2 delete ecosystem.config.js",
+    "monit": "pm2 monit",
     "setup": "pm2 install pm2-logrotate && yarn build:apis",
     "start": "pm2 start ecosystem.config.js",
     "start:dev": "",
     "stop": "pm2 stop ecosystem.config.js",
-    "update:submodules": "git submodule foreach git pull origin master"
+    "update:submodules": "git submodule foreach git pull origin master",
+    "postupdate:submodules": "git submodule foreach yarn"
   },
   "dependencies": {
     "pm2": "^4.1.1"
