@@ -29,6 +29,7 @@ Click on the links to ge more info on how to run on those platforms.
 **Requirements**
 - Make sure MongoDB is running, for Mac users there is a docker-compose file.
 - Copy the `ecosystem.config.example.js` to `ecosystem.config.js` file and fill it in.
+- If you want transcoding support make sure you have [ffmpeg](https://www.ffmpeg.org/download.html) installed
 
 ```shell script
 # Clone this repository
