@@ -33,7 +33,7 @@ Click on the links to ge more info on how to run on those platforms.
 
 ```shell script
 # Clone this repository
-$ git clone --recurse-submodules git@github.com:pct-org/getting-started.git
+$ git clone --recurse-submodules https://github.com/pct-org/getting-started.git
 
 # Install dependencies
 $ yarn install
