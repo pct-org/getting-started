@@ -3,12 +3,14 @@ set -e
 
 echo "Installing essential tools..."
 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+
 wget -qO - https://www.mongodb.org/static/pgp/server-4.0.asc | sudo apt-key add -
-echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
 sudo apt-get update
 
 sudo apt-get install -y \
-  nodejs \
   git \
   mongodb-org
 
@@ -32,5 +34,8 @@ ssh-keyscan github.com >> ~/.ssh/known_hosts
 git clone --recurse-submodules https://github.com/pct-org/getting-started.git
 
 cd getting-started
+nvm install
+nvm use
+
 yarn install
 yarn setup
