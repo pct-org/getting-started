@@ -2,17 +2,32 @@
 set -e
 
 echo "Installing essential tools..."
+sudo apt-get install -y \
+  git \
+  curl
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 
-wget -qO - https://www.mongodb.org/static/pgp/server-4.0.asc | sudo apt-key add -
-echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.0.list
+# Install mongo db version 4.2
+sudo apt-get purge mongodb mongodb-server mongodb-server-core mongodb-clients
+sudo apt-get purge mongodb-org
+sudo apt-get autoremove
 sudo apt-get update
 
-sudo apt-get install -y \
-  git \
-  mongodb-org
+wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+sudo apt-get update
+sudo apt-get install mongodb-org
+sudo systemctl daemon-reload
+sudo systemctl start mongod
+sudo systemctl unmask mongodb
+
+# Requires the user to put in his password
+sudo systemctl enable mongod
+
+# For logging purposes
+sudo systemctl status mongod
 
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
