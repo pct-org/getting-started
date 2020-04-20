@@ -8,8 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build:apis": "yarn build:scraper && yarn build:graphql",
-    "build:graphql": "cd apis/graphql-api && yarn && cd ../../",
-    "build:scraper": "cd apis/scraper && yarn && cd ../../",
+    "build:graphql": "cd apis/graphql-api && yarn install --frozen-lockfile && cd ../../",
+    "build:scraper": "cd apis/scraper && yarn install --frozen-lockfile && cd ../../",
     "commitlint": "commitlint",
     "delete": "pm2 delete ecosystem.config.js",
     "monit": "pm2 monit",
@@ -20,7 +20,7 @@
     "start:dev": "",
     "stop": "pm2 stop ecosystem.config.js",
     "update:submodules": "git submodule foreach git pull origin master",
-    "postupdate:submodules": "git submodule foreach yarn"
+    "postupdate:submodules": "git submodule foreach yarn install --frozen-lockfile"
   },
   "dependencies": {
     "pm2": "4.2.3"
