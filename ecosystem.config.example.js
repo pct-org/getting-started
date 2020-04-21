@@ -46,7 +46,7 @@ module.exports = {
       name: 'Scraper',
       cwd: 'apis/scraper',
       script: 'dist/scraper.js',
-      args: '-m pretty -s',
+      args: '-m pretty',
       instances: 1,
       max_restarts: 5,
       autorestart: true,
