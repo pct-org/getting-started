@@ -13,7 +13,7 @@
 ---
 ## Getting started
 
-This repo is meant to get an easier experience setting up this environment.
+This repo helps you to get an easier experience setting up this environment. If you want to develop on one specific [project](#Projects) please so the README of one of those [projects](#Projects).
 
 ## Projects
 
@@ -41,7 +41,6 @@ Click on the links to ge more info on how to run on those platforms.
 
 **Requirements**
 - Make sure MongoDB is running, for Mac users there is a docker-compose file.
-- Copy the `ecosystem.config.example.js` to `ecosystem.config.js` file and fill it in.
 - If you want transcoding support make sure you have [ffmpeg](https://www.ffmpeg.org/download.html) installed
 
 ```shell script
@@ -55,13 +54,15 @@ $ yarn install
 $ yarn setup
 ```
 
-## Starting the project
+Last step is to copy the `ecosystem.config.example.js` to `ecosystem.config.js` file and fill it in.
+
+## Starting the project (PM2)
 
 ```shell script
-# To start the API's (Scraper will immediately start scraping)
+# To start the APIs (Scraper will immediately start scraping)
 $ yarn start
 
-# To stop the API's
+# To stop the APIs
 $ yarn stop
 
 # To delete the PM2 apps

@@ -9,10 +9,6 @@ There are lots and lots of ways to get involved, this document covers:
    - [Feature Requests](#feature-requests)
    - [Pull Requests](#pull-requests)
  - [Commit Messages](#commit-messages)
- - [Styleguides](#styleguides)
-   - [JavaScript Styleguide](#javascript-styleguide)
-   - [Tests Styleguide](#tests-styleguide)
-   - [Documentation Styleguide](#documentation-styleguide)
  - [Setting up for development](#setting-up-for-development)
    - [Yarn scripts](#yarn-scripts)
    - [Git hooks](#git-hooks)
@@ -81,17 +77,10 @@ This project uses the [Conventional Commits](https://conventionalcommits.org/)
 convention. If you are not familiar with this convention please read about it
 first before creating a commit message or a PR.
 
-### Documentation Styleguide
-
- * Use [Markdown](https://daringfireball.net/projects/markdown).
- * Reference methods and classes in markdown with the custom `{}` notation:
-   * Reference classes with `{ClassName}`
-   * Reference instance methods with `{ClassName.methodName}`
-   * Reference class methods with `{ClassName#methodName}`
 
 ## Setting up for development
 
-Each repo has it's own _Setting up for development_, read that closely before creating new tickets.
+Each repo has its own _Setting up for development_, read that closely before creating new tickets.
 
 ### Yarn scripts
 
@@ -112,7 +101,7 @@ development of the project. See the README's of the projects for the project spe
 ### Git hooks
 
 The following `git` hooks are available to ensure the changes you are about to
-make follow the [styleguides](#styleguides) and make sure your changes pass the
+make follow the [commit guidelines](#Commit Messages) and make sure your changes pass the
 tests.
 
 ```
