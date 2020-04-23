@@ -1,4 +1,8 @@
-## 1.0.1 (2020-04-23)
+## [1.0.2](https://github.com/pct-org/getting-started/compare/v1.0.1...v1.0.2) (2020-04-23)
+
+
+
+## [1.0.1](https://github.com/pct-org/getting-started/compare/574a22d6ef3a049025b3792873ae0e02242c1c2e...v1.0.1) (2020-04-23)
 
 
 ### Bug Fixes
