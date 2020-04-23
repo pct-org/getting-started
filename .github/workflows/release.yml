@@ -15,13 +15,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12.x
-
-      - name: install
-        run: yarn
-
-      - name: build
-        run: yarn build
+          node-version: 10.x
 
       - name: Conventional Changelog Action
         uses: TriPSs/conventional-changelog-action@v2.0.1
