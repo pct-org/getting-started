@@ -112,6 +112,9 @@ module.exports = {
     //   env: {
     //     // The time between cronjobs.
     //     CRON_TIME: '0 0 * * *',
+    //
+    //     // Location of the getting-started project
+    //     PROJECT_LOCATION: '',
     //   },
     // },
   ],
