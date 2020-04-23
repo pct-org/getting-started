@@ -4,3 +4,6 @@
 [submodule "apis/graphql-api"]
 	path = apis/graphql-api
 	url = https://github.com/pct-org/graphql-api.git
+[submodule "updater"]
+	path = updater
+	url = https://github.com/pct-org/updater.git

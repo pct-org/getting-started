@@ -97,5 +97,22 @@ module.exports = {
         TVDB_KEY: '',
       },
     },
+    // Enable this if you want auto updates
+    // {
+    //   name: 'Updater',
+    //   cwd: 'updater',
+    //   script: 'dist/updater.js',
+    //   instances: 1,
+    //   max_restarts: 5,
+    //   autorestart: true,
+    //   watch: false,
+    //   error_file: `${logsDir}/updater.log`,
+    //   out_file: `${logsDir}/updater.log`,
+    //   log_file: null,
+    //   env: {
+    //     // The time between cronjobs.
+    //     CRON_TIME: '0 0 * * *',
+    //   },
+    // },
   ],
 }

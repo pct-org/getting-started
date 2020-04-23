@@ -13,7 +13,20 @@
 ---
 ## Getting started
 
-This repo is meant to get a easier experience setting up this environment.
+This repo is meant to get an easier experience setting up this environment.
+
+## Projects
+
+Popcorn Time consists of several projects, each doing its own part.
+
+| Project                      | Description |
+| ---------------------------- | -------------------------------------------------------- |
+| [`@pct-org/getting-started`] | Explains how to get started with this setup              |
+| [`@pct-org/graphql-api`]     | Serves the data to the clients from the MongoDB database |
+| [`@pct-org/scraper`]         | Scrapes everything and saves it to MongoDB database      |
+| [`@pct-org/mongo-models`]    | Models used for MongoDB and GraphQL object types         |
+| [`@pct-org/native-app`]      | React Native App                                         |
+| [`@pct-org/updater`]         | Updater that automatically updates the projects          |
 
 ## Installation
 
@@ -54,18 +67,6 @@ $ yarn stop
 # To delete the PM2 apps
 $ yarn delete
 ```
-
-## Projects
-
-Popcorn Time consists of several projects, each doing it's own part.
-
-| Project                      | Description |
-| ---------------------------- | -------------------------------------------------------- |
-| [`@pct-org/graphql-api`]     | Serves the data to the clients from the MongoDB database |
-| [`@pct-org/getting-started`] | Explains how to get started with this setup              |
-| [`@pct-org/mongo-models`]    | Models used for MongoDB and GraphQL object types         |
-| [`@pct-org/native-app`]      | React Native App                                         |
-| [`@pct-org/scraper`]         | Scrapes everything and saves it to MongoDB database      |
 
 ## Contributing:
 
