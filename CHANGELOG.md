@@ -1,3 +1,12 @@
+## [1.0.7](https://github.com/pct-org/getting-started/compare/v1.0.6...v1.0.7) (2020-04-26)
+
+
+### Bug Fixes
+
+* Update models, contains fixes ([d17fedd](https://github.com/pct-org/getting-started/commit/d17fedd2d4bdff8740b7d26806b048d2289587b6))
+
+
+
 ## [1.0.6](https://github.com/pct-org/getting-started/compare/v1.0.5...v1.0.6) (2020-04-26)
 
 
@@ -26,10 +35,6 @@
 ### Bug Fixes
 
 * **scraper:** Fixed that blacklisted show items where not reconised ([afafeec](https://github.com/pct-org/getting-started/commit/afafeec2c3d4454c4346140995b3ada7d5ff03d5))
-
-
-
-## [1.0.2](https://github.com/pct-org/getting-started/compare/v1.0.1...v1.0.2) (2020-04-23)
 
 
 
