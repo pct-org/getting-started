@@ -1,3 +1,12 @@
+## [1.0.5](https://github.com/pct-org/getting-started/compare/v1.0.4...v1.0.5) (2020-04-26)
+
+
+### Bug Fixes
+
+* Update graphql-api to v0.6.2 ([4451b0a](https://github.com/pct-org/getting-started/commit/4451b0af08389b1ee0fcb598e544aaceed3d798c))
+
+
+
 ## [1.0.4](https://github.com/pct-org/getting-started/compare/v1.0.3...v1.0.4) (2020-04-26)
 
 
