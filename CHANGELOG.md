@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/pct-org/getting-started/compare/v1.1.0...v1.2.0) (2020-05-04)
+
+
+### Features
+
+* Update submodules ([225bbec](https://github.com/pct-org/getting-started/commit/225bbecad256345cab2ff3ee7ed6558c8a74b044))
+
+
+
 # [1.1.0](https://github.com/pct-org/getting-started/compare/v1.0.7...v1.1.0) (2020-05-04)
 
 
@@ -31,10 +40,6 @@
 ### Bug Fixes
 
 * Update graphql-api to v0.6.2 ([4451b0a](https://github.com/pct-org/getting-started/commit/4451b0af08389b1ee0fcb598e544aaceed3d798c))
-
-
-
-## [1.0.4](https://github.com/pct-org/getting-started/compare/v1.0.3...v1.0.4) (2020-04-26)
 
 
 
