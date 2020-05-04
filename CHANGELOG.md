@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/pct-org/getting-started/compare/v1.0.7...v1.1.0) (2020-05-04)
+
+
+### Features
+
+* Update submodules ([2e4410f](https://github.com/pct-org/getting-started/commit/2e4410f40725f11826fa8b64f24194a27ec4a7b6))
+
+
+
 ## [1.0.7](https://github.com/pct-org/getting-started/compare/v1.0.6...v1.0.7) (2020-04-26)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [1.0.4](https://github.com/pct-org/getting-started/compare/v1.0.3...v1.0.4) (2020-04-26)
-
-
-
-## [1.0.3](https://github.com/pct-org/getting-started/compare/v1.0.2...v1.0.3) (2020-04-24)
-
-
-### Bug Fixes
-
-* **scraper:** Fixed that blacklisted show items where not reconised ([afafeec](https://github.com/pct-org/getting-started/commit/afafeec2c3d4454c4346140995b3ada7d5ff03d5))
 
 
 
