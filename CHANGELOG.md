@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/pct-org/getting-started/compare/v1.2.1...v1.2.2) (2020-05-05)
+
+
+### Bug Fixes
+
+* Update submodules ([7abd65f](https://github.com/pct-org/getting-started/commit/7abd65f91201e6bd7bfd258f23c6438b79ab071e))
+
+
+
 ## [1.2.1](https://github.com/pct-org/getting-started/compare/v1.2.0...v1.2.1) (2020-05-05)
 
 
@@ -26,15 +35,6 @@
 ### Bug Fixes
 
 * Update models, contains fixes ([d17fedd](https://github.com/pct-org/getting-started/commit/d17fedd2d4bdff8740b7d26806b048d2289587b6))
-
-
-
-## [1.0.6](https://github.com/pct-org/getting-started/compare/v1.0.5...v1.0.6) (2020-04-26)
-
-
-### Bug Fixes
-
-* Fixes for mongo models ([cc03509](https://github.com/pct-org/getting-started/commit/cc035098ae53457b167044b6817ffa9225e699c0))
 
 
 
