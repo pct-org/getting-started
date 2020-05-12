@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
 
       - name: Use Node.js
         uses: actions/setup-node@v1
@@ -18,6 +18,6 @@ jobs:
           node-version: 10.x
 
       - name: Conventional Changelog Action
-        uses: TriPSs/conventional-changelog-action@v2.0.1
+        uses: TriPSs/conventional-changelog-action@v2
         with:
           github-token: ${{ secrets.github_token }}
