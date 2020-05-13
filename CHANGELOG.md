@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/pct-org/getting-started/compare/v1.4.0...v1.5.0) (2020-05-13)
+
+
+### Features
+
+* Update modules ([ccf3243](https://github.com/pct-org/getting-started/commit/ccf324394a714d1dbc9851f77a1a095c320ee042))
+
+
+
 # [1.4.0](https://github.com/pct-org/getting-started/compare/v1.3.0...v1.4.0) (2020-05-12)
 
 
@@ -71,15 +80,6 @@
 ### Bug Fixes
 
 * Fixes for mongo models ([cc03509](https://github.com/pct-org/getting-started/commit/cc035098ae53457b167044b6817ffa9225e699c0))
-
-
-
-## [1.0.5](https://github.com/pct-org/getting-started/compare/v1.0.4...v1.0.5) (2020-04-26)
-
-
-### Bug Fixes
-
-* Update graphql-api to v0.6.2 ([4451b0a](https://github.com/pct-org/getting-started/commit/4451b0af08389b1ee0fcb598e544aaceed3d798c))
 
 
 
