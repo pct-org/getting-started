@@ -1,3 +1,12 @@
+## [1.6.4](https://github.com/pct-org/getting-started/compare/v1.6.3...v1.6.4) (2020-05-21)
+
+
+### Bug Fixes
+
+* Update submodules ([ba9efc2](https://github.com/pct-org/getting-started/commit/ba9efc24b7a70fd5e6880cee3d83f2f711595131))
+
+
+
 ## [1.6.3](https://github.com/pct-org/getting-started/compare/v1.6.2...v1.6.3) (2020-05-18)
 
 
@@ -76,10 +85,6 @@
 ### Bug Fixes
 
 * Update submodules ([7abd65f](https://github.com/pct-org/getting-started/commit/7abd65f91201e6bd7bfd258f23c6438b79ab071e))
-
-
-
-## [1.2.1](https://github.com/pct-org/getting-started/compare/v1.2.0...v1.2.1) (2020-05-05)
 
 
 
