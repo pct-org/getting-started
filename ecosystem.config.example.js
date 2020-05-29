@@ -40,6 +40,12 @@ module.exports = {
         // Location where to download everything in, make sure this location exists
         // Also must be a absolute path
         DOWNLOAD_LOCATION: '',
+
+        // Username of your opensubtitles account
+        // OPENSUBTITLES_USERNAME: '',
+
+        // Password of your opensubtitles account
+        // OPENSUBTITLES_PASSWORD: ''
       },
     },
     {
