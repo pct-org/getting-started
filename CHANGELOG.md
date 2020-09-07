@@ -1,3 +1,12 @@
+## [1.10.2](https://github.com/pct-org/getting-started/compare/v1.10.1...v1.10.2) (2020-09-07)
+
+
+### Bug Fixes
+
+* Updated scraper ([60ef3af](https://github.com/pct-org/getting-started/commit/60ef3afdd3cfda6224a2e4f8ec40df1ea0118ef3))
+
+
+
 ## [1.10.1](https://github.com/pct-org/getting-started/compare/v1.10.0...v1.10.1) (2020-09-05)
 
 
@@ -76,15 +85,6 @@
 ### Bug Fixes
 
 * Update submodules ([ba9efc2](https://github.com/pct-org/getting-started/commit/ba9efc24b7a70fd5e6880cee3d83f2f711595131))
-
-
-
-## [1.6.3](https://github.com/pct-org/getting-started/compare/v1.6.2...v1.6.3) (2020-05-18)
-
-
-### Bug Fixes
-
-* Update submodule ([b7b0d2f](https://github.com/pct-org/getting-started/commit/b7b0d2f221791d7f844e5aa66ec3b993bae1b6d5))
 
 
 
