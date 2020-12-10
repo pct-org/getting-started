@@ -1,3 +1,7 @@
+## [1.14.1](https://github.com/pct-org/getting-started/compare/v1.14.0...v1.14.1) (2020-12-10)
+
+
+
 # [1.14.0](https://github.com/pct-org/getting-started/compare/v1.13.3...v1.14.0) (2020-09-20)
 
 
@@ -76,15 +80,6 @@
 ### Bug Fixes
 
 * Updated scraper ([60ef3af](https://github.com/pct-org/getting-started/commit/60ef3afdd3cfda6224a2e4f8ec40df1ea0118ef3))
-
-
-
-## [1.10.1](https://github.com/pct-org/getting-started/compare/v1.10.0...v1.10.1) (2020-09-05)
-
-
-### Bug Fixes
-
-* Updated scraper ([561d93f](https://github.com/pct-org/getting-started/commit/561d93fe1c2d8385c71d82e01abefee787e4bc68))
 
 
 
